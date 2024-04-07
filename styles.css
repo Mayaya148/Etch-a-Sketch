@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 960px;
+    height: 960px;
+}
+
+.grid-item {
+    box-sizing: border-box;
+    width: calc(100% / var(--grid-rows));
+    height: calc(100% / var(--grid-columns));
+    border: 1px solid #333;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: hover;
+}
